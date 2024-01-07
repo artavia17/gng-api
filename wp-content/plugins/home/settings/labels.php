@@ -15,7 +15,7 @@
         'parent_item_colon' => __('Parent Home:', 'textdomain'),
         'not_found' => __('Not content...', 'textdomain'),
         'not_found_in_trash' => __('Not found in Trash.', 'textdomain'),
-        'featured_image' => _x('Home Cover Image', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'textdomain'),
+        'featured_image' => _x('Image of second section', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'textdomain'),
         'set_featured_image' => _x('Add Image', 'Overrides the “Set featured image” phrase for this post type. Added in 4.3', 'textdomain'),
         'remove_featured_image' => _x('Remove image', 'Overrides the “Remove featured image” phrase for this post type. Added in 4.3', 'textdomain'),
         'use_featured_image' => _x('Use as cover image', 'Overrides the “Use as featured image” phrase for this post type. Added in 4.3', 'textdomain'),

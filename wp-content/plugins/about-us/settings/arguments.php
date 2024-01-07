@@ -14,13 +14,16 @@
         'hierarchical' => false,
         'menu_position' => null,
         'supports' =>  array('title', 'thumbnail'),
-        'menu_icon' => 'dashicons-admin-home',
+        'menu_icon' => 'dashicons-edit-page',
         'show_in_rest' => true,
         'rest_base' => 'home',
         'rest_namespace' => 'home',
         'register_meta_box_cb' => function () {
             // All arguments
-            include plugin_dir_path(__FILE__) . 'boxs/first_section.php';
-            include plugin_dir_path(__FILE__) . 'boxs/second_section.php';
+            include plugin_dir_path(__FILE__) . 'boxs/first.php';
+            include plugin_dir_path(__FILE__) . 'boxs/second.php';
+            include plugin_dir_path(__FILE__) . 'boxs/third.php';
+            include plugin_dir_path(__FILE__) . 'boxs/fourth.php';
+
         }
     );

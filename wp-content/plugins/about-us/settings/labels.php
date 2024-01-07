@@ -1,0 +1,28 @@
+<?php 
+    // Config plugins
+    $labels = array(
+        'name' => _x('All About', 'Post type general name', 'textdomain'),
+        'singular_name' => _x('About Us Settings', 'Post type singular name', 'textdomain'),
+        'menu_name' => _x('About Us Settings', 'Admin Menu text', 'textdomain'),
+        'name_admin_bar' => _x('About', 'Add New on Toolbar', 'textdomain'),
+        'add_new' => __('Add New About', 'textdomain'),
+        'add_new_item' => __('Add New About', 'textdomain'),
+        'new_item' => __('New About', 'textdomain'),
+        'edit_item' => __('Edit About', 'textdomain'),
+        'view_item' => __('View About', 'textdomain'),
+        'all_items' => __('All About', 'textdomain'),
+        'search_items' => __('Search About', 'textdomain'),
+        'parent_item_colon' => __('Parent About:', 'textdomain'),
+        'not_found' => __('Not content...', 'textdomain'),
+        'not_found_in_trash' => __('Not found in Trash.', 'textdomain'),
+        'featured_image' => _x('Background About Us', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'textdomain'),
+        'set_featured_image' => _x('Add Image', 'Overrides the “Set featured image” phrase for this post type. Added in 4.3', 'textdomain'),
+        'remove_featured_image' => _x('Remove image', 'Overrides the “Remove featured image” phrase for this post type. Added in 4.3', 'textdomain'),
+        'use_featured_image' => _x('Use as cover image', 'Overrides the “Use as featured image” phrase for this post type. Added in 4.3', 'textdomain'),
+        'archives' => _x('About About archives', 'The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4', 'textdomain'),
+        'insert_into_item' => _x('Insert into About', 'Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4', 'textdomain'),
+        'uploaded_to_this_item' => _x('Uploaded to this About', 'Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4', 'textdomain'),
+        'filter_items_list' => _x('Filter About list', 'Screen reader text for the filter links heading on the post type listing screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4', 'textdomain'),
+        'items_list_navigation' => _x('About About list navigation', 'Screen reader text for the pagination heading on the post type listing screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4', 'textdomain'),
+        'items_list' => _x('About About list', 'Screen reader text for the items list heading on the post type listing screen. Default “Posts list”/”Pages list”. Added in 4.4', 'textdomain'),
+    );

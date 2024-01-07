@@ -4,9 +4,6 @@
         'First section',
         function ($post) {
 
-            // $buttonexternal = get_post_meta($post->ID, 'buttonexternal', true);
-            // $buttontext = get_post_meta($post->ID, 'titlebutton', true);
-            // $buttonlink = get_post_meta($post->ID, 'buttonaction', true);
 
             $first_title = get_post_meta( $post->ID, 'title_first', true);
             $first_content = get_post_meta($post->ID, 'first_content', true);
