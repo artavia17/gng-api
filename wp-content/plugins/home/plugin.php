@@ -127,6 +127,7 @@ function get_home($request) {
             $sliders_query->the_post();
 
             $title = get_the_title();
+            $excert = get_the_excerpt();
             $title_first = get_post_meta(get_the_ID(), 'title_first', true);
             $content_first = get_post_meta(get_the_ID(), 'first_content', true);
             $galery_first = get_post_meta(get_the_ID(), 'first_galery', true);
@@ -141,6 +142,7 @@ function get_home($request) {
             // Aquí puedes obtener los campos específicos que deseas incluir en la respuesta JSON
             $home = array(
                 'titulo' => $title,
+                'description' => $excert,
                 'first_section' => array(
                     'title' =>  $title_first,
                     'content' => $content_first,

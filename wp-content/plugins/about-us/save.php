@@ -33,5 +33,8 @@
 
         update_post_meta($post_id, 'title_fourth', $_POST['title_fourth']);
         update_post_meta($post_id, 'content_fourth', $_POST['content_fourth']);
+        update_post_meta($post_id, 'all_icons', $_POST['all_icons']);
 
     }
+
+    

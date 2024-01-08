@@ -13,7 +13,7 @@
         'has_archive' => true,
         'hierarchical' => false,
         'menu_position' => null,
-        'supports' =>  array('title', 'thumbnail'),
+        'supports' =>  array('title', 'thumbnail', 'excerpt'),
         'menu_icon' => 'dashicons-admin-home',
         'show_in_rest' => true,
         'rest_base' => 'home',
