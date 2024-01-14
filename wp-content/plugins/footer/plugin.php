@@ -13,7 +13,6 @@
 * Text Domain:       Conocer más del plugin
 */
 
-
 // Inializamos el plugin
 
 add_action('init', function(){
@@ -26,6 +25,7 @@ add_action('init', function(){
     register_post_type('footer', $args);
 
 });
+
 
 
 

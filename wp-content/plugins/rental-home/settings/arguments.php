@@ -21,5 +21,7 @@
         'register_meta_box_cb' => function () {
             // All arguments
             include plugin_dir_path(__FILE__) . 'boxs/images.php';
+            include plugin_dir_path(__FILE__) . 'boxs/unavailable.php';
+            include plugin_dir_path(__FILE__) . 'boxs/characteristics.php';
         }
     );
